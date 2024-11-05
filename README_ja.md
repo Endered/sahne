@@ -6,7 +6,7 @@ Scalaで多様されているMixinを基本としたDIをsahneで模倣するこ
 > このライブラリの用途に悩まれる方は、Cake PatternやMinimal Cake Pattern等で調べられることをお勧めします。
 
 ## 使用例
-```
+```Rust
 trait Animal {
     fn kind(&self) -> String;
 }
